@@ -1,1 +1,23 @@
+body {
+    background-color: #2196F3;
+    padding: 20px;
+}
 
+.eagle {
+    width: 300px;
+    height: 300px;
+    filter: brightness(0.8);
+    animation: soar 3s infinite;
+}
+
+@keyframes soar {
+    0% {
+        transform: translateY(-100px);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
